@@ -1,66 +1,35 @@
-# 🌞 OrbitCalc — Solar System Calculator
+# MeasureVision AI
 
-**OrbitCalc** is a futuristic Python calculator where the solar system becomes the interface.  
-Instead of normal buttons, numbers and operators orbit around a glowing Sun display like planets, moons, asteroids, and comets.
+MeasureVision AI is a Python-based 3D shape measurement and visualization project. It allows users to calculate important measurements of different 3D shapes and view shape-related visuals in a simple, beginner-friendly way.
 
-The goal of this project is to make math feel interactive, visual, and fun.
+## Features
 
----
+- Calculate measurements for 3D shapes
+- Work with common geometric shapes
+- Display shape visuals and demo images
+- Simple Python project structure
+- Beginner-friendly code and usage
+- Useful for learning geometry, Python, and basic visualization
 
-## 🚀 Demo
+## Supported Shapes
 
-![OrbitCalc Demo](assets/image.png)
+The project can be extended to support shapes such as:
 
----
+- Cube
+- Cuboid
+- Sphere
+- Cylinder
+- Cone
+- Pyramid
+- Prism
 
-## ✨ Features
-
-- ☀️ **Sun Display** — shows the current expression and final result
-- 🪐 **Planet Buttons** — numbers `0–9`
-- 🌙 **Moon Operators** — `+`, `−`, `×`, `÷`, `%`
-- ☄️ **Comet Animation** — appears when pressing `=`
-- 🌌 **Asteroid Belt Functions** — `sin`, `cos`, `tan`, `sqrt`, `log`
-- 🕳️ **Black Hole Clear Button** — resets the calculator
-- 🛸 **Hover Glow Effect** — buttons glow when the cursor moves over them
-- 🌠 **Animated Space Background** — stars, orbit rings, and futuristic neon styling
-
----
-
-## 🧠 Project Idea
-
-OrbitCalc turns a normal calculator into a mini galaxy.
-
-The center of the app is a glowing Sun that acts as the calculator display.  
-Numbers and operators orbit around it like planets and moons. Scientific functions are placed like asteroids, and pressing equals triggers a comet-style animation.
-
-This project was built to practice:
-
-- Python GUI development
-- PyQt6
-- Custom drawing with `QPainter`
-- Animation using `QTimer`
-- Event handling
-- Creative UI/UX design
-
----
-
-## 🛠️ Technologies Used
-
-- Python 3
-- PyQt6
-- QPainter
-- QTimer
-- Math module
-- AST-based safe expression evaluation
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```text
-calculator/
-├── main.py
-├── README.md
-└── assets/
-    └── image.png
-# SolarCalculator
+MeasureVision-AI/
+├── assets/
+│   ├── demo.png
+│   └── image.png
+├── 3dshapecalculator.py
+├── 3dsizecalculator.py
+└── README.md
