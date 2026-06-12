@@ -63,3 +63,4 @@ calculator/
 ├── README.md
 └── assets/
     └── image.png
+# SolarCalculator
