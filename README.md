@@ -11,6 +11,11 @@ MeasureVision AI is a Python-based 3D shape measurement and visualization projec
 - Beginner-friendly code and usage
 - Useful for learning geometry, Python, and basic visualization
 
+## 🚀 Demo
+
+![MeasureVision AI Demo](assets/demo.png)
+
+
 ## Supported Shapes
 
 The project can be extended to support shapes such as:
@@ -33,3 +38,4 @@ MeasureVision-AI/
 ├── 3dshapecalculator.py
 ├── 3dsizecalculator.py
 └── README.md
+
